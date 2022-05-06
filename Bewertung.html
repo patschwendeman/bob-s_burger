@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Bewertung</title>
+  </head>
+  <body class="back">
+    <header class="header">
+
+      <h1>Vote for Bob</h1>
+
+    </header>
+
+    <form method="post" action="http://info.mi.fh-offenburg.de/~ivs/padsdir/Labor/Review.php" onsubmit="return checkOrder(this)">
+
+      <section class="container_2">
+
+        <h2>Wie hat es ihnen gefallen?</h2>
+        <div class="rating">
+          <input name="status_1" class="button" type="submit" value="Gut" >
+          <input name="status_0" class="button" type="submit" value="Schlecht">
+        </div>
+
+
+      </section>
+    </form>
+
+  </body>
+</html>
